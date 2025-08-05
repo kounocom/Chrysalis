@@ -1,0 +1,199 @@
+(footprint "LED-ARRAY-SMD_4P-L2.1-W2.1-TL_NH-B2020RGBA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LED-ARRAY-SMD_4P-L2.1-W2.1-TL_NH-B2020RGBA footprint")
+	(tags "LED-ARRAY-SMD_4P-L2.1-W2.1-TL_NH-B2020RGBA footprint C2874116")
+	(property "Reference" "REF**"
+		(at 0.399962 -3.049987 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bedef6e2-0316-4b1a-afa6-71dc826d2cc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED1"
+		(at 0.399962 3.049987 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56569984-4637-4487-8646-532ebdfebb13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b829a4e-290d-40fc-bd26-e47ff201d71d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "RGB LED, red/blue/anode/green"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "388e12fc-5526-4387-a3b1-290a965a650b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "C42421005"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97d18e3e-d2f4-434b-8b3c-ca256413d589")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.049987 -1.049987)
+		(end 1.050013 -1.049987)
+		(stroke
+			(width 0.150013)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77b19c72-c39a-4f27-87d5-5dd4a3ae4120")
+	)
+	(fp_line
+		(start -1.049987 -0.070892)
+		(end -1.050013 0.070892)
+		(stroke
+			(width 0.150013)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38aeb265-e920-45e8-a520-00684a62785c")
+	)
+	(fp_line
+		(start -1.049987 1.049987)
+		(end 1.050013 1.049987)
+		(stroke
+			(width 0.150013)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00a90f40-20dc-4006-8d68-2a73423fce6f")
+	)
+	(fp_line
+		(start 1.049987 -0.070892)
+		(end 1.050013 0.070892)
+		(stroke
+			(width 0.150013)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a9d1acf-86b2-45c4-92a3-89cfb37b2c4f")
+	)
+	(fp_line
+		(start 1.399975 0.55997)
+		(end 1.849936 0.55997)
+		(stroke
+			(width 0.150013)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b80a6f5b-6701-4577-81b7-9798ce3c8d3f")
+	)
+	(fp_line
+		(start 1.61999 0.310008)
+		(end 1.61999 0.810008)
+		(stroke
+			(width 0.150013)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50a8dd8b-7f71-4386-b492-9df0983e44de")
+	)
+	(fp_circle
+		(center -1.050013 -1.050013)
+		(end -1.020015 -1.050013)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8de97340-b824-486d-bb11-265ae7a09191")
+	)
+	(fp_rect
+		(start -2 -1.5)
+		(end 2 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1edc6c36-1c92-41d1-9bec-c7ba87353bf8")
+	)
+	(fp_text user "REF**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f51b5c84-3943-468e-a93f-3274cefaed23")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.849886 -0.549911)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "80ed96fe-5740-418f-abb3-55b76cb85d8a")
+	)
+	(pad "2" smd rect
+		(at 0.849886 -0.549911)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ff07f635-1488-405d-aa0e-c1f9a5d18162")
+	)
+	(pad "3" smd rect
+		(at 0.849886 0.549911)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "27509c4a-98da-46e7-9e65-fc2edbb15dea")
+	)
+	(pad "4" smd rect
+		(at -0.849886 0.549911)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5307e661-9979-4488-b85e-be65a3bd0361")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Chrysalis Data/Chrysalis Models/LED-ARRAY-SMD_4P-L2.1-W2.1-TL_NH-B2020RGBA.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
