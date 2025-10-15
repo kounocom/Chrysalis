@@ -1,6 +1,6 @@
 # Chrysalis
 
-**A shield PCB for the nRF52840 Supermini/Pro Micro with an IMU, magnetometer, two buttons and n RGB LED, designed for nRF-based SlimeVR trackers**
+**A shield PCB for the nRF52840 Supermini/Pro Micro with an IMU, magnetometer, two buttons and a RGB LED, designed for nRF-based SlimeVR trackers**
 
 ## Overview
 
@@ -9,7 +9,7 @@ Chrysalis is a compact, back-mounted shield that solders directly to the undersi
 - 3-axis accelerometer/gyroscope (TDK InvenSense ICM-45686)  
 - 3-axis magnetometer (QMC6309)  
 - Two push-buttons for SW0 and RESET 
-- An RGB LED
+- Configurable RGB LED (Currently requires custom built firmware for changing the color)
 - Pads for battery wires 
 
 All exposed pads are marked with a star (`*`) and **must** be soldered.
@@ -46,6 +46,9 @@ Manufacturing is most cost-effective at volume. For small quantities, consider o
    - Use direct solder connections—no wires or pin-headers.  
    - Inspect joints under magnification; check for cold or dry joints and bridges.
 
+4. **Consider the Wire-Mod for the Pro-Micro Antenna**
+   - https://docs.slimevr.dev/smol-slimes/hardware/smol-tracker.html#-copper-wire-for-wire-antenna-mod
+
 ## Pinout & Connections
 
 | Supermini Pin | Signal    |
@@ -73,16 +76,9 @@ _For the complete schematic and up-to-date pin mapping, see `Chrysalis.kicad_sch
 ## Usage
 
 1. Plug the assembled Supermini+Chrysalis combo into your host via USB.  
-2. Flash the SlimeVR firmware:   
+2. Flash the Slime-nRF Chrysalis firmware:   
    - Download the pre-compiled firmware:  
-     https://docs.slimevr.dev/smol-slimes/firmware/smol-pre-compiled-firmware.html 
-   - In the configurator select:  
-     - **Schematic Type:** PCB
-     - **Microcontroller:** Pro Micro (Subject to change — sub-variant with RGB LED support not added yet)
-     - **Interface:** SPI  
-     - **Enable Clock:** ✅  
-     - **WOM:** ✅ / ❌ (user preference)
-     - **SW0:** ✅ 
+     https://docs.slimevr.dev/smol-slimes/firmware/smol-pre-compiled-firmware.html#pcb 
     - Follow the guide:  
      https://docs.slimevr.dev/smol-slimes/firmware/smol-flashing-firmware.html 
 3. Open a serial console to verify IMU, magnetometer and button functionality.

@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Chrysalis Footprints")(type "KiCad")(uri "${KIPRJMOD}/Chrysalis Data/Chrysalis Footprints.pretty")(options "")(descr ""))
-)
